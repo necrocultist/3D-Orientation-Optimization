@@ -1,2 +1,2 @@
-# Orientation-Optimization-For-Additive-Manufacturing
-An algorithm to find the optimal orientation of a 3D geometry for printing
+# 3D-Orientation-Optimization
+An algorithm to find the optimal orientation of a 3D geometry for additive manufacturing.
