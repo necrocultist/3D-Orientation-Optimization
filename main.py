@@ -8,8 +8,6 @@ if __name__ == '__main__':
         print("Usage: python main.py <stl file>")
         sys.exit(1)
     stl_name = sys.argv[1]
-    a = 5
-    print(a)
     mesh = load_stl(stl_name)
     obj_fun = build(mesh)
 
