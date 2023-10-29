@@ -14,6 +14,9 @@ if __name__ == '__main__':
     theta, rotate_time, obj_fun = rotate_and_calculate_time(obj_fun)
 
     print(
-        f'Optimal rotation for {stl_name} is {np.round(theta, decimals=3)} with value {np.round(obj_fun, decimals=3)} in {np.round(rotate_time, decimals=3)} seconds')
+        f'Optimal rotation for {stl_name} is {np.round(theta, decimals=3)} '
+        f'with value {np.round(obj_fun, decimals=3)} in '
+        f'{np.round(rotate_time, decimals=3)} seconds')
+
     plot_stl(mesh, theta)
     sys.exit(0)
